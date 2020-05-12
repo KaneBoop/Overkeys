@@ -13,7 +13,7 @@ ADHD := New ADHDLib
 ADHD.config_limit_app("Overwatch")
 
 ; GUI size
-ADHD.config_size(381,940)
+ADHD.config_size(381,1010)
 
 ADHD.config_ignore_x64_warning()
 
@@ -23,12 +23,15 @@ ADHD.config_hotkey_add({uiname: "D.VA", subroutine: "D.VA"})
 ADHD.config_hotkey_add({uiname: "Orisa", subroutine: "Orisa"})
 ADHD.config_hotkey_add({uiname: "Reinhardt", subroutine: "Reinhardt"})
 ADHD.config_hotkey_add({uiname: "Roadhog", subroutine: "Roadhog"})
+ADHD.config_hotkey_add({uiname: "Sigma", subroutine: "Sigma"})
 ADHD.config_hotkey_add({uiname: "Winston", subroutine: "Winston"})
 ADHD.config_hotkey_add({uiname: "Wrecking Ball", subroutine: "WreckingBall"})
 ADHD.config_hotkey_add({uiname: "Zarya", subroutine: "Zarya"})
+
 ADHD.config_hotkey_add({uiname: "Ashe", subroutine: "Ashe"})
 ADHD.config_hotkey_add({uiname: "Bastion", subroutine: "Bastion"})
 ADHD.config_hotkey_add({uiname: "Doomfist", subroutine: "Doomfist"})
+ADHD.config_hotkey_add({uiname: "Echo", subroutine: "Echo"})
 ADHD.config_hotkey_add({uiname: "Genji", subroutine: "Genji"})
 ADHD.config_hotkey_add({uiname: "Hanzo", subroutine: "Hanzo"})
 ADHD.config_hotkey_add({uiname: "Junkrat", subroutine: "Junkrat"})
@@ -42,7 +45,9 @@ ADHD.config_hotkey_add({uiname: "Symmetra", subroutine: "Symmetra"})
 ADHD.config_hotkey_add({uiname: "Torbjörn", subroutine: "Torbjörn"})
 ADHD.config_hotkey_add({uiname: "Tracer", subroutine: "Tracer"})
 ADHD.config_hotkey_add({uiname: "Widowmaker", subroutine: "Widowmaker"})
+
 ADHD.config_hotkey_add({uiname: "Ana", subroutine: "Ana"})
+ADHD.config_hotkey_add({uiname: "Baptiste", subroutine: "Baptiste"})
 ADHD.config_hotkey_add({uiname: "Brigitte", subroutine: "Brigitte"})
 ADHD.config_hotkey_add({uiname: "Lúcio", subroutine: "Lúcio"})
 ADHD.config_hotkey_add({uiname: "Mercy", subroutine: "Mercy"})
@@ -76,80 +81,85 @@ return
 ; ==========================================================================================
 	
 D.VA:
-	ExecuteClick(120, 885)
+	ExecuteClick(115, 900)
 	return
 Orisa:
-	ExecuteClick(180, 885)
+	ExecuteClick(170, 900)
 	return
 Reinhardt:
-	ExecuteClick(240, 885)
+	ExecuteClick(225, 900)
 	return
 Roadhog:
-	ExecuteClick(300, 885)
+	ExecuteClick(275, 900)
+	return
+Sigma:
+	ExecuteClick(330, 900)
 	return
 Winston:
-	ExecuteClick(360, 885)
+	ExecuteClick(385, 900)
 	return
 WreckingBall:
-	ExecuteClick(420, 885)
+	ExecuteClick(440, 900)
 	return
 Zarya:
-	ExecuteClick(480, 885)
+	ExecuteClick(490, 900)
 	return
-	
+
 
 ; ==========================================================================================
 ;	Damage
 ; ==========================================================================================
 
-
 Ashe:
-	ExecuteClick(560, 885)
+	ExecuteClick(570, 900)
 	return
 Bastion:
-	ExecuteClick(620, 885)
-	return	
+	ExecuteClick(620, 900)
+	return
 Doomfist:
-	ExecuteClick(680, 885)
+	ExecuteClick(675, 900)
+	return
+Echo:
+	ExecuteClick(730, 900)
 	return
 Genji:
-	ExecuteClick(740, 885)
+	ExecuteClick(785, 900)
 	return
 Hanzo:
-	ExecuteClick(800, 885)
+	ExecuteClick(840, 900)
 	return
 Junkrat:
-	ExecuteClick(860, 885)
-	return	
+	ExecuteClick(895, 900)
+	return
 McCree:
-	ExecuteClick(920, 885)
+	ExecuteClick(950, 900)
 	return
 Mei:
-	ExecuteClick(980, 885)
+	ExecuteClick(1000, 900)
 	return	
 Pharah:
-	ExecuteClick(1040, 885)
+	ExecuteClick(1055, 900)
 	return	
 Reaper:
-	ExecuteClick(1100, 885)
+	ExecuteClick(1110, 900)
 	return
 Soldier76:
-	ExecuteClick(1160, 885)
+	ExecuteClick(1165, 900)
 	return
 Sombra:
-	ExecuteClick(1220, 885)
+	ExecuteClick(1220, 900)
 	return
 Symmetra:
-	ExecuteClick(1280, 885)
-	return	
+	ExecuteClick(1270, 900)
+	return
 Torbjörn:
-	ExecuteClick(1340, 885)
+	ExecuteClick(1330, 900)
 	return
 Tracer:
-	ExecuteClick(1400, 885)
+	ExecuteClick(1380, 900)
 	return
 Widowmaker:
-	ExecuteClick(1460, 885)
+	ExecuteClick(1435, 900)
 	return
 
 
@@ -158,22 +168,25 @@ Widowmaker:
 ; ==========================================================================================
 	
 Ana:
-	ExecuteClick(1540, 885)
+	ExecuteClick(1510, 900)
+	return
+Baptiste:
+	ExecuteClick(1565, 900)
 	return
 Brigitte:
-	ExecuteClick(1600, 885)
+	ExecuteClick(1615, 900)
 	return
 Lúcio:
-	ExecuteClick(1660, 885)
+	ExecuteClick(1675, 900)
 	return
 Mercy:
-	ExecuteClick(1720, 885)
+	ExecuteClick(1725, 900)
 	return
 Moira:
-	ExecuteClick(1780, 885)
+	ExecuteClick(1780, 900)
 	return
 Zenyatta:
-	ExecuteClick(1840, 885)
+	ExecuteClick(1835, 900)
 	return
 
 
@@ -184,20 +197,19 @@ Zenyatta:
 
 ExecuteClick(X, Y)
 {
-	ControlClick2(X, Y, "ahk_exe Overwatch.exe")
-	sleep, 50
-	ControlClick2(952, 988, "ahk_exe Overwatch.exe")
+		ControlClick2(X, Y, "ahk_exe Overwatch.exe")
+		sleep, 50
+		ControlClick2(952, 988, "ahk_exe Overwatch.exe")
 }
 
 
-ControlClick2(X, Y, WinTitle="", WinText="", ExcludeTitle="", ExcludeText="")  
-{  
-  hwnd:=ControlFromPoint(X, Y, WinTitle, WinText, cX, cY, ExcludeTitle, ExcludeText)  				 
-      
+ControlClick2(X, Y, WinTitle="", WinText="", ExcludeTitle="", ExcludeText="")
+{
+  hwnd:=ControlFromPoint(X, Y, WinTitle, WinText, cX, cY, ExcludeTitle, ExcludeText)
+
   PostMessage, 0x200, 0, cX&0xFFFF | cY<<16,, ahk_id %hwnd% ; WM_MOUSEMOVE
-  PostMessage, 0x201, 0, cX&0xFFFF | cY<<16,, ahk_id %hwnd% ; WM_LBUTTONDOWN  
-  PostMessage, 0x202, 0, cX&0xFFFF | cY<<16,, ahk_id %hwnd% ; WM_LBUTTONUP  
-   
+  PostMessage, 0x201, 0, cX&0xFFFF | cY<<16,, ahk_id %hwnd% ; WM_LBUTTONDOWN
+  PostMessage, 0x202, 0, cX&0xFFFF | cY<<16,, ahk_id %hwnd% ; WM_LBUTTONUP
 }
 
 ControlFromPoint(X, Y, WinTitle="", WinText="", ByRef cX="", ByRef cY="", ExcludeTitle="", ExcludeText="")

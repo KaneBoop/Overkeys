@@ -1204,7 +1204,7 @@ Class ADHD_Private {
 				p := InStr(A_LoopField, "=")
 				if p {
 					k := SubStr(A_LoopField, 1, p-1)
-					out[%k%] := SubStr(A_LoopField, p+1)
+					out[k] := SubStr(A_LoopField, p+1)
 				}
 			}
 		}
